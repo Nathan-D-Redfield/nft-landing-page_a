@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #0F0E0E;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
@@ -19,6 +19,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+
+
+/* Green */
+.success {
+    color: green;
+}
+
+.success:hover {
+    background-color: #04AA6D;
+    color: white;
 }
 
 body {
@@ -33,7 +45,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 96%;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -75,6 +87,40 @@ header .container {
   text-decoration: none;
   outline: none;
 }
+
+
+.btn2 {
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+  border-radius: 5rem;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    color: aliceblue;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn55 {
+  padding: 1rem 1rem;
+  transition: all 0.3s ease;
+  border-radius: 1rem;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    color: aliceblue;
+    outline: none;
+    text-decoration: none;
+}
+
 .btn:hover {
   box-shadow: none;
 }
@@ -84,6 +130,14 @@ header .container {
   margin-left: 2rem;
   border-color: transparent;
 }
+
+.wallet-btn2 {
+  font-size: large;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  border-color: transparent;
+}
+
 
 .hero-btn {
   border-radius: 4px;
